@@ -1,0 +1,28 @@
+.myChart {
+  width: 60%;
+  margin-top: 5rem;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+}
+
+.bg-custom {
+  background-color: #1f272f;
+}
+.bg-custom-2 {
+  background-color: #1f272f;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    margin-top: 5rem;
+    flex-direction: column;
+  }
+  .myChart {
+    width: 100%;
+  }
+}
